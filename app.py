@@ -8,7 +8,7 @@ st.set_page_config(page_title="DealFixer AI", page_icon="🤝", layout="wide")
 # Securely set up Gemini
 API_KEY = "AIzaSyAK1drB0TgUHlf3JCsBZIYyEUQugLHhF5U"
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash-latest')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 # --- STYLING ---
 st.markdown("""
