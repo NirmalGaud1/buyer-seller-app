@@ -192,6 +192,6 @@ if st.session_state.deal_fixed:
     <p>Final Price: ${st.session_state.last_price}</p></div>""", unsafe_allow_html=True)
     st.balloons()
 
-elif st.session_state.round_count >= 20:
+elif st.session_state.round_count >= 5:
     st.markdown("""<div class="fail-box"><h1>❌ NO DEAL</h1>
     <p>Maximum negotiation rounds reached.</p></div>""", unsafe_allow_html=True)
